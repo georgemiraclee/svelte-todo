@@ -65,17 +65,17 @@
 	}
 </script>
 <svelte:head>
-	<title>Todo site</title>
+	<title>Halaman Catatan</title>
 </svelte:head>
 
 <div class="row">
 	<div class="col-12">
-		<h1>Todo site</h1>
+		<h1>Catatan Brok</h1>
 	</div>
 	<div class="col-12 mt-5">
 		<form on:submit|preventDefault={createTodo}>
 			<div class="form-group">
-				<input bind:value={todo_title} class="form-control" id="title-input" type="text" name="title" placeholder="Input the title">
+				<input bind:value={todo_title} class="form-control" id="title-input" type="text" name="title" placeholder="Isi yang kamu pikirin..">
 			</div>
 			<div class="d-grid form-group mt-3">
 				<button type="submit" class="btn btn-primary block">Submit</button>
@@ -93,7 +93,7 @@
 
 <div class="row mt-5">
 	<div class="col-12">
-		<h3>List of Todo</h3>
+		<h3>List Catatan</h3>
 	</div>
 	<div class="col-12 mt-1">
 
@@ -119,7 +119,7 @@
 		{:else}
 			<div class="card">
 				<div class="card-body">
-					<p class="card-text">You have no todo list, go create one!</p>
+					<p class="card-text">Kamu belum ada catatan, ayo buat!</p>
 				</div>
 			</div>		
 		{/each}
