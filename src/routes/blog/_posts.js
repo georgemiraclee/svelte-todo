@@ -62,8 +62,8 @@ const posts = [
 	},
 
 	{
-		title: 'How is Sapper different from Next.js?',
-		slug: 'how-is-sapper-different-from-next',
+		title: 'bagaimana sapper bisa berbeda dari Next.Js',
+		slug: 'bagaimana-saaper-berbeda-dengan-next',
 		html: `
 			<p><a href='https://github.com/zeit/next.js'>Next.js</a> is a React framework from <a href='https://vercel.com/'>Vercel</a>, and is the inspiration for Sapper. There are a few notable differences, however:</p>
 

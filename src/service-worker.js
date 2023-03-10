@@ -39,7 +39,7 @@ self.addEventListener('activate', event => {
 async function fetchAndCache(request) {
 	const cache = await caches.open(`offline${timestamp}`)
 
-	try {
+	try { 
 		const response = await fetch(request);
 		cache.put(request, response.clone());
 		return response;
