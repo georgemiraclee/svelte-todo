@@ -8,7 +8,7 @@
 	function createTodo() {
 		if (todo_title.length < 1) {			
 			alert_type = "danger";
-			alert_message = "Please input todo!";
+			alert_message = "Mohon isi catatan!";
 			return resetAlert();
 		}
 
@@ -20,8 +20,8 @@
 
 		todos = [...todos, todo];
 		
-		alert_type = "success";
-		alert_message = "Successfully add todo";
+		alert_type = "sukses";
+		alert_message = "Catatan sudah ditambahkan";
 
 		todo_title = "";
 		return resetAlert();
@@ -38,8 +38,8 @@
 
 		todos = new_todos;
 
-		alert_type = "success";
-		alert_message = "Successfully remove todo";
+		alert_type = "Sukses";
+		alert_message = "Catatan sukses dipindahkan";
 		resetAlert();
 	}
 
